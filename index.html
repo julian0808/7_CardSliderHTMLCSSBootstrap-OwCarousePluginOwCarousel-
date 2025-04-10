@@ -46,6 +46,13 @@
                 <p>5678 Elm Street. Austin TX. 73301</p>
               </div>
             </div>
+            <div class="card_box">
+              <img class="img-fluid w-100" src="./img/slider-04.png" alt="Profile Image 3">
+              <div class="card_text">
+                <h4>Profile ID: 23458</h4>
+                <p>5678 Elm Street. Austin TX. 73301</p>
+              </div>
+            </div>
             <!-- Add more cards as needed -->
           </div>
         </div>
@@ -60,9 +67,8 @@
 
   <!-- Carousel Init -->
   <script>
-    $(document).ready(function () {
-      $('.owl-carousel.slider_carousel').owlCarousel({
-        dots: false,
+    $('.owl-carousel.slider_carousel').owlCarousel({
+        dots: true, // enable dots
         loop: true,
         margin: 30,
         stagePadding: 2,
@@ -88,11 +94,11 @@
             items: 3
           },
           1200: {
-            items: 4
+            items: 3
           }
         }
       });
-    });
+  
   </script>
 
 </body>
