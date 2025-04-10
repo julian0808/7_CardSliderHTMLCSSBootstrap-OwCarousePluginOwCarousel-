@@ -136,3 +136,57 @@ button:focus, input:focus, textarea:focus {
 .slider_carousel .owl-prev {
     left: -50px;
 }
+
+/* test */
+
+/* Custom Styling for Owl Carousel Dots */
+.owl-carousel .owl-dots {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .owl-carousel .owl-dot {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0 5px;
+	background: #ccc;
+	border-radius: 50%;
+	transition: background 0.3s;
+  }
+  
+  .owl-carousel .owl-dot.active {
+	background: #333;
+  }
+
+  .card_box img {
+	object-fit: cover; /* or "contain", depending on desired layout */
+	image-rendering: auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+  }
+
+  .card_box img {
+	object-fit: cover; /* or "contain", depending on desired layout */
+	image-rendering: auto;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+  }
+  
+  .card_box img {
+	image-rendering: crisp-edges; /* or pixelated if it's a low-res graphic */
+  }
+  
+  
+  
+  /* Optional: Adjust on desktop view */
+  @media (min-width: 992px) {
+	.owl-carousel .owl-dots {
+	  position: relative;
+	  bottom: -10px;
+	}
+  }
+  
+  
